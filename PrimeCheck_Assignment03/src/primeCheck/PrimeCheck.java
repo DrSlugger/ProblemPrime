@@ -1,8 +1,12 @@
 /**
- * Kyle Marler, John Lockleer, Ben Tenhover
- * Assignment03
+ * Name: Kyle Marler, John Locklear, Ben Tenhover
+ * Assignment: Assignment03
  * Due Date: 2/1/2018
- * 
+ * Course/Section/Semester: 2045C/002/Spring 2018
+ * Email: tenhovbe@mail.uc.edu, Locklejr@mail.uc.edu, marlerkw@mail.uc.edu
+ * Citations: Each other, In class work
+ * Description: Work together to complete a class that determines whether or not a BigInteger is a prime number or not, as well as a 
+ * main class to display testing for our prime check class.		
  */
 package primeCheck;
 
@@ -10,7 +14,7 @@ import java.math.BigInteger;
 
 /**
  * A class that will be used to check whether a number, recorded as a string, then converted into a BigInteger, is a prime number.
- * @author Kyle Marler
+ * @author Kyle Marler, John Locklear, Ben Tenhover
  *
  */
 public class PrimeCheck {
@@ -45,6 +49,8 @@ public class PrimeCheck {
 		BigInteger zero = new BigInteger("0"); // Instantiates a BigInt named zero wit the value of zero
 		BigInteger two = new BigInteger("2"); // Instantiates a BigInt named two with the value of two
 		BigInteger num1 = new BigInteger(num); // Converts the string num into a BigInt
+		
+		
 		if (num1.equals(two)) { // Checks if num1 is equal to 2, since 2 is prime.
 			return true;
 		}
