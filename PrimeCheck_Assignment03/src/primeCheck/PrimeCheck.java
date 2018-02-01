@@ -7,7 +7,7 @@
  * Citations: Each other, In class work
  * Description: Work together to complete a class that determines whether or not a BigInteger is a prime number or not, as well as a 
  * main class to display testing for our prime check class.		
- */
+ */ 
 package primeCheck;
 
 import java.math.BigInteger;
