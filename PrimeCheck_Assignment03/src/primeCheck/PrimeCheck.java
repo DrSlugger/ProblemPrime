@@ -69,6 +69,6 @@ public class PrimeCheck {
 	 * toString method that will print the value of the number.
 	 */
 	public String toString() {
-		return num + " is a prime number: ";
+		return num + " is a prime number: "; 
 	}
 }
